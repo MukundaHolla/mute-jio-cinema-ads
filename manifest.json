@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Mute Ads on JioCinema by Mukunda Holla",
+  "name": "Mute Ads on JioCinema",
   "version": "0.1",
   "description": "Mute ads on JioCinema live cricket matches",
   "permissions": [
