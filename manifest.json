@@ -4,8 +4,6 @@
   "version": "0.1",
   "description": "Mute ads on JioCinema live cricket matches",
   "permissions": [
-    "tabs",
-    "activeTab"
   ],
   "content_scripts": [
     {

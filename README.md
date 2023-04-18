@@ -1,3 +1,40 @@
+# Mute JioCinema Ads Chrome Extension
+
+This Chrome extension automatically mutes ads on JioCinema during live cricket matches and restores the volume when the ads are over.
+
+## Features
+
+- Automatically mutes the video when ads are displayed
+- Resumes the volume when the ads are over
+- Remembers user's mute/unmute preference
+
+## Installation
+
+1. Clone or download this repository.
+2. Open Chrome and go to `chrome://extensions/`.
+3. Enable "Developer mode" by toggling the switch in the top right corner.
+4. Click on "Load unpacked" and select the repository folder.
+5. The extension should now be installed and active.
+
+## Usage
+
+The extension works automatically. When you watch a live cricket match on JioCinema, the extension will mute the volume when ads are displayed and unmute the volume when the ads are over. You can still manually control the volume using the video player controls.
+
+## Tampermonkey Script
+
+If you prefer to use this as a Tampermonkey script instead of a Chrome extension, you can create a new Tampermonkey script and paste the following code:
+
+```javascript
+// ==UserScript==
+// @name         Mute Ads on JioCinema
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  Mute ads on JioCinema live cricket matches
+// @author       You
+// @match        *://*.jiocinema.com/*
+// @grant        none
+// ==/UserScript==
+
 (function() {
     'use strict';
 
