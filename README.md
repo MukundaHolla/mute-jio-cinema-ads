@@ -1,7 +1,6 @@
 # Number of users as of 28th may 😍
 
-<img width="1430" alt="Screenshot 2023-05-29 at 5 11 59 PM" src="https://github.com/MukundaHolla/mute-jio-cinema-ads/assets/19995154/9930d179-12fe-464e-83ea-44e3d6eb1dfa">
-
+1000+
 
 # Mute JioCinema Ads Chrome Extension
 
